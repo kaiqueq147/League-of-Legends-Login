@@ -1,0 +1,12 @@
+@media (max-width: 900px) {
+    #imagemContainer {
+        display: none;
+    }
+    #loginContainer {
+        width: 100vw;
+        height: 100vh;
+    }
+    .help {
+        display: none;
+    }
+}

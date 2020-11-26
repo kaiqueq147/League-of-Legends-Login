@@ -1,0 +1,86 @@
+#imagemContainer {
+    width: 65%;
+    background: rgba(255, 0, 0, 0.096);
+    background-image: url("../assets/Gangplank_0.jpg");
+    background-size: cover;
+    background-position: 100% 100%;
+    position: relative;
+    display: block;
+}
+
+
+/*backgroind-size: 100% esta deixando a foto zuada   tentar colocar a foto no html*/
+
+.informacao {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D950E5;
+    height: 15px;
+    width: 15px;
+    padding: 18px;
+    transform: rotate(133deg);
+    margin-left: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.info {
+    transform: rotate(46deg);
+    font-weight: 900;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* '../assets./icons/gear.svg' */
+
+.configContainer {
+    background: #747376;
+    background-position: center center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 34px;
+    width: 34px;
+    position: absolute;
+    right: 5%;
+    bottom: 6%;
+    cursor: pointer;
+}
+
+.configContainer:hover {
+    background: #8e8d91;
+}
+
+.gear {
+    width: 45%;
+    height: 45%;
+}
+
+.optionCotainer {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    list-style: none;
+}
+
+.optionCotainer li {
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.optionLi:hover {
+    background: rgba(255, 255, 255, 0.172);
+}
+
+.optionRed:hover {
+    background: #D13639;
+    transition: .5s background;
+}

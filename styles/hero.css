@@ -1,0 +1,248 @@
+#main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.logo-lol {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 40px 0;
+}
+
+#loginContainer h1 {
+    padding: 20px 0;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.social-login {
+    max-width: 18px;
+    max-height: 18px;
+}
+
+.arrow {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    margin: 0 auto;
+    width: 75%;
+    height: 40%;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: none;
+    background: #EDEDED;
+}
+
+.form input::placeholder {
+    color: #A1A1A1;
+    font-weight: bold;
+    margin-bottom: 300px;
+}
+
+.form input:focus {
+    font-size: 15px;
+}
+
+.help {
+    position: absolute;
+    right: 12%;
+    top: 5%;
+    background: #B2B2B2;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.help span {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+.help-info {
+    display: none;
+    background: #F9F9F9;
+    left: 32%;
+    top: 2%;
+    width: 25%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 3px 3px 13px #000000;
+}
+
+.help-info.ativo {
+    display: block;
+}
+
+.help-info::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -4%;
+    top: 10%;
+    z-index: 1;
+    transform: rotate(270deg);
+    border-bottom: 10px solid #F9F9F9;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.help-info p {
+    max-width: 81%;
+    text-align: left;
+    font-size: .8rem;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.help-arrow {
+    width: 13px;
+    height: 13px;
+    transform: rotate(330deg);
+    margin-left: 2%;
+}
+
+#loginContainer {
+    position: relative;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F9F9F9;
+}
+
+.social-medias {
+    margin: 20px 0;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px 10px;
+}
+
+.face-login {
+    background: #1877F2;
+    border-radius: 5px;
+    width: 30%;
+    height: 150%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-login {
+    background: #FFFFFF;
+    border-radius: 5px;
+    border-radius: 5px;
+    width: 30%;
+    height: 150%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apple-login {
+    background: #000000;
+    border-radius: 5px;
+    border-radius: 5px;
+    width: 30%;
+    height: 150%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apple-login:hover,
+.google-login:hover,
+.face-login:hover {
+    cursor: pointer;
+    opacity: .3s;
+}
+
+.face-icon {
+    stroke: white;
+}
+
+.check {
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.check input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.check label {
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(146, 146, 146);
+    font-size: .8rem;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.arrow-right {
+    width: 12%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    background: #F9F9F9;
+    border-radius: 20px;
+    border: 2px solid #E8E8E8;
+}
+
+.arrow-right:hover {
+    background: #D13639;
+    cursor: pointer;
+}
+
+.recover-account {
+    color: #b2b2b2;
+    text-align: center;
+    height: 5%;
+    margin-top: 5%;
+}
+
+.recover-account h2 {
+    font-size: .7rem !important;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+}
