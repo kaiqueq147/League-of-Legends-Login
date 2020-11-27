@@ -217,7 +217,7 @@
 }
 
 .arrow-right {
-    width: 12%;
+    re min-width: 15%;
     height: 10%;
     display: flex;
     align-items: center;
